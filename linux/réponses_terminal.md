@@ -61,8 +61,7 @@ R=> Commande utilisée :
 
                             chmod  750  deploy.sh
 
-
-
+   En utilisant le chiffre, le 7 va donner le droit de permission rwx au propriétaire; le 5 va    donner le droit de permission r-x au groupe et le 0 va retirer tous les droits aux autres      utilisateurs du fichier.
 
 
 
