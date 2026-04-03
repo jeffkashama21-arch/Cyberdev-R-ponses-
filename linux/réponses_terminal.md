@@ -51,4 +51,37 @@ ________________________________________________________________________________
 
 Q\ Expliquez la signification du mode de permission utilisé.
 
-R=> 
+R=> Commande utilisée :
+
+   1. touch :  pour  créer le fichier <<deploy.sh>>
+   
+                             touch deploy.sh
+  
+   2. chmod  750  : une fois le fichier  <<deploy.sh>> créé, nous avons utilisé cette commande                     pour lui donner le droit de permission de lecture, d' écriture et d'                           exécution pour le propriétaire; pour lui donner le droit de permission de                      lecture et d' exécution pour le groupe et enfin pour lui retirer tous les                      droits de permission aux autres utilisateurs. 
+
+                            chmod  750  deploy.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
