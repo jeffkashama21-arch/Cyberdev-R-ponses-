@@ -41,7 +41,13 @@ R=> Création d'arborescence
                                    touch fichier1.txt_fichier2.txt
 
 8. pwd : enfin, nous avons utilisé cette commande pour afficher toute
-         l'arborescence .
+         l'arborescence.
+
+                                                  pwd
+
+
+
+
         
  NB : Q\ questions et R => : réponses   
 ______________________________________________________________________________________________
@@ -123,14 +129,27 @@ _______________________________________________________________________
 5.Redirection et pipes
 
 
- ls > fichiers.txt
 
- date >> fichiers.txt
 
- grep -E .sh$ fichiers.txt
 
- ls *.txt | wc -l
 
+• listez les fichiers du répertoire courant et redirigez la sortie vers fichiers.txt
+
+                              ls > fichiers.txt
+                           
+• ajoutez ensuite la date actuelle dans le même fichier
+
+                              date >> fichiers.txt
+                              
+• affichez les lignes contenant .sh
+
+                               grep -E .sh$ fichiers.txt
+                               
+• utilisez un pipe pour compter combien de fichiers .txt existent dans un dossier
+
+                                ls *.txt | wc -l
+
+Expliquez la différence entre > et >>.
 
 La différence entre > et >> : la redirection > redirige la sortie vers un fichier et écrase ce qui existe déjà. Et la redirection >> ajoute sans écraser le contenu qui existe ou ajoute à la fin du fichier.
 
