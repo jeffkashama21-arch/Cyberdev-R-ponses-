@@ -5,28 +5,7 @@
    retourner une réponse.
 
 
-• montrer un exemple d’événement JSON de test.
-
-  Exemple :
-
-                 {
-  "nom": "Jeff"
-}
-
-
-
-• montrer le résultat attendu.
-
-   résultats attendu : 
-
-
-            {
-  "statusCode": 200,
-  "body": "Bonjour Jeff, bienvenue dans AWS Lambda"
-}
-
-
-expliquer brièvement dans quels cas une fonction Lambda est utile.
+• Expliquer brièvement dans quels cas une fonction Lambda est utile.
 
    Une fonction Lambda est utile en ce que : Applications sans serveur c'est-à-dire
    pas besoin de gérer un serveur, AWS exécute le code automatiquement. Créer
