@@ -167,7 +167,7 @@ _______________________________________________________________________
 
 Expliquez la différence entre > et >>.
 
-  La différence entre > et >> : la redirection > redirige la sortie vers un fichier et          écrase ce qui existe déjà. Et la redirection >> ajoute sans écraser le contenu qui existe     ou ajoute à la fin du fichier.
+La différence entre > et >> : la redirection > redirige la sortie vers un fichier et          écrase ce qui existe déjà. Et la redirection >> ajoute sans écraser le contenu qui existe     ou ajoute à la fin du fichier.
 
 
 _______________________________________________________________________
@@ -183,7 +183,7 @@ _______________________________________________________________________
 
                ps aux | grep ssh
 
-expliquez la différence entre PID et PPID
+• expliquez la différence entre PID et PPID
 
 Difference entre PID et PPID : Le PID (Process IDentifier) c'est le numéro unique             attribué à un processus en cours d'exécution sous Linux. Mais le PPID (Parent Process         IDentifier) est le PID du processus « parent », c'est-à-dire celui qui a lancé le             processus actuel. Le PID identifie le processus lui-même, tandis que le PPID identifie        son créateur.
 
@@ -217,7 +217,7 @@ _______________________________________________________________________
 
           du -ah /home | sort -rh | head -n 5
 
-• expliquer comment détecter rapidement qu’un serveur Linux est presque plein
+• Expliquer comment détecter rapidement qu’un serveur Linux est presque plein
 
 df -h : en utilisant cette commande, puis on regarde la ligne où est mentionnée <</dev/sda1>> et ensuite on regarde la colonne qui indique le pourcentage d’utilisation du disque mentionné par <<uti%>>. Si le pourcentage est de plus de 90%, cela nous permettra directement de détecter que le serveur linux est presque plein.
 
@@ -249,8 +249,10 @@ _______________________________________________________________________
 • Pour vérifier les groupes d'un utilisateur on va utiliser la commande suivante :
 
                                    groups Paul
-                                   
-• La bonne gestion des groupes est importante en sécurité parce qu'elle permettra de            renforcer  la sécurité (seuls les utilisateurs autorisés accèdent aux fichiers),une gestion   facile (on   modifie les droits une seule fois pour tout le groupe),moins d’erreurs (évite    de donner trop  de permissions) et une organisation claire (chaque rôle a ses accès)
+                
+• Expliquer pourquoi la bonne gestion des groupes est importante en sécurité
+                       
+  La bonne gestion des groupes est importante en sécurité parce qu'elle permettra de            renforcer  la sécurité (seuls les utilisateurs autorisés accèdent aux fichiers),une gestion   facile (on   modifie les droits une seule fois pour tout le groupe),moins d’erreurs (évite    de donner trop  de permissions) et une organisation claire (chaque rôle a ses accès)
 
 
 
