@@ -1,45 +1,59 @@
 27. Scénario CIA – Confidentialité
- Il s'agit de la confidentialité
- Parce qu'il s'agit des atteintes graves liées à la confidentialité des données
-sensibles de l'entreprise. Hors, la confidentialité garantit que seules les
-personnes autorisées peuvent accéder aux données.
-
- Perte ou fuite des données sensibles, utilisation malveillante des données(chantage, divulgation externe).
-
- Les 4 mesures de sécurité :
 
 
-1. Mettre en place un système de permission d' accès aux équipements ou
-aux dossiers sensibles(génération des mots passe)
+• Quel pilier de la triade CIA est concerné ?
 
+  Il s'agit de la confidentialité
 
-2. Chiffrement des fichiers sensibles ( si il y a violation des mots de passe,les données restent illisible sans autorisation).
+  
+• Pourquoi ?
 
-
-3. Mettre ces fichiers sensibles dans les dossiers hors de partage public
-public.
+  Parce qu'il s'agit des atteintes graves liées à la confidentialité des données
+  sensibles de l'entreprise. Hors, la confidentialité garantit que seules les
+  personnes autorisées peuvent accéder aux données.
 
 
 
-4. Utiliser l’authentification et les rôles (donner des accès selon le rôle. Donc,
-celui des utilisateurs internes diffère de celui des stagiaires.
+• Quels sont les risques pour l’entreprise
+
+   Perte ou fuite des données sensibles, utilisation malveillante des données(chantage,          divulgation externe).
 
 
+• Donnez au moins 4 mesures de sécurité pour corriger ce problème.
+
+  Les 4 mesures de sécurité :
+
+  1. Mettre en place un système de permission d' accès aux équipements ou
+     aux dossiers sensibles(génération des mots passe)
 
 
+  2. Chiffrement des fichiers sensibles ( si il y a violation des mots de passe,les données        restent illisible sans autorisation).
+
+
+  3. Mettre ces fichiers sensibles dans les dossiers hors de partage public
+     public.
+
+
+  4. Utiliser l’authentification et les rôles (donner des accès selon le rôle. Donc,
+  celui des utilisateurs internes diffère de celui des stagiaires.
+
+
+______________________________________________________________________________________________
 
 
 
 
 28. Scénario CIA – Intégrité
 
+• Quel pilier de la triade CIA est impacté ?
 
+   Il s'agit de l' Intégrité
+  
+• Pourquoi ?
+  
+  - Parce qu'il y a modification des données et elles deviennent non fiables et non exactes.
 
- Il s'agit de l' Intégrité
-
- Parce qu'il y a modification des données et elles deviennent non fiables et non exactes.
-
- Mauvaises décisions de gestion (réapprovisionnement incorrect). Il peut y avoir ruptures de stock ou au contraire surstock.
+  - Mauvaises décisions de gestion (réapprovisionnement incorrect). Il peut y avoir ruptures       de stock ou au contraire surstock.
 
 
  Les 4 contrôles permettant de protéger l’intégrité des données
